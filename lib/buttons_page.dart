@@ -32,7 +32,7 @@ class ButtonsPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey,
       appBar: AppBar(
-        title: Text('20BCE0169 - Tooltip'),
+        title: const Text('20BCE0169 - Tooltip'),
         centerTitle: true,
         backgroundColor: Colors.black,
       ),
@@ -57,10 +57,10 @@ class ButtonsPage extends StatelessWidget {
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.white,
-                            padding: EdgeInsets.all(16),
+                            padding: const EdgeInsets.all(16),
                           ),
                           onPressed: () {},
-                          child: Text(
+                          child: const Text(
                             'Button 1',
                             style: TextStyle(color: Colors.black),
                           ),
@@ -79,16 +79,16 @@ class ButtonsPage extends StatelessWidget {
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.white,
-                            padding: EdgeInsets.all(16),
+                            padding: const EdgeInsets.all(16),
                           ),
                           onPressed: () {},
-                          child: Text(
+                          child: const Text(
                             'Button 1',
                             style: TextStyle(color: Colors.black),
                           ),
                         ),
                       ),
-                SizedBox(
+                const SizedBox(
                   height: 50,
                 ),
                 selectedTarget != "Button 2"
@@ -105,10 +105,10 @@ class ButtonsPage extends StatelessWidget {
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.white,
-                            padding: EdgeInsets.all(16),
+                            padding: const EdgeInsets.all(16),
                           ),
                           onPressed: () {},
-                          child: Text(
+                          child: const Text(
                             'Button 2',
                             style: TextStyle(color: Colors.black),
                           ),
@@ -127,16 +127,16 @@ class ButtonsPage extends StatelessWidget {
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.white,
-                            padding: EdgeInsets.all(16),
+                            padding: const EdgeInsets.all(16),
                           ),
                           onPressed: () {},
-                          child: Text(
+                          child: const Text(
                             'Button 2',
                             style: TextStyle(color: Colors.black),
                           ),
                         ),
                       ),
-                SizedBox(
+                const SizedBox(
                   height: 50,
                 ),
                 selectedTarget != "Button 3"
@@ -153,10 +153,10 @@ class ButtonsPage extends StatelessWidget {
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.white,
-                            padding: EdgeInsets.all(16),
+                            padding: const EdgeInsets.all(16),
                           ),
                           onPressed: () {},
-                          child: Text(
+                          child: const Text(
                             'Button 3',
                             style: TextStyle(color: Colors.black),
                           ),
@@ -175,10 +175,10 @@ class ButtonsPage extends StatelessWidget {
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.white,
-                            padding: EdgeInsets.all(16),
+                            padding: const EdgeInsets.all(16),
                           ),
                           onPressed: () {},
-                          child: Text(
+                          child: const Text(
                             'Button 3',
                             style: TextStyle(color: Colors.black),
                           ),

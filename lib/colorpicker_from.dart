@@ -30,9 +30,9 @@ class _ColorPickerFormFieldState extends State<ColorPickerFormField> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        SizedBox(height: 8),
+        const SizedBox(height: 8),
         Text(widget.labelText),
-        SizedBox(height: 4),
+        const SizedBox(height: 4),
         Row(
           children: [
             Expanded(
@@ -45,7 +45,7 @@ class _ColorPickerFormFieldState extends State<ColorPickerFormField> {
               ),
             ),
             IconButton(
-              icon: Icon(Icons.color_lens),
+              icon: const Icon(Icons.color_lens),
               onPressed: () => _showColorPicker(context),
             ),
           ],
